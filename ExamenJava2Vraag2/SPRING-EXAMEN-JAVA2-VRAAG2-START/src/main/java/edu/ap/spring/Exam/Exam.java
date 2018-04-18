@@ -13,10 +13,12 @@ public class Exam {
 	public int[] getPrimes(int[] numbers) {
 		int n = numbers.length;
 		int[] priem = new int[n];
-		
-		for(int i = 2; i < n ; i++){
-		    priem
-		}
+		int a= 0;
+		for (int i = 2; i <= n; i++)
+	    {
+			priem[a] = i;
+			a++;
+	    }
 		 
 		return priem;
 	}
@@ -35,6 +37,9 @@ public class Exam {
 	// 1 punt
 	public int sumOfX(List<Point> points) {
 		
+		int n= points.size();
+		double som = ((Point) points).getX();
+	    
 		
 	}
 	
@@ -43,6 +48,7 @@ public class Exam {
 	// zijn aan twee
 	// 2 punten
 	public String getXOverTwo(List<Point> points) {
-		
+		int n= points.size();
+
 	}
 }
